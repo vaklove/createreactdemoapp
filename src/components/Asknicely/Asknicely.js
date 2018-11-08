@@ -10,7 +10,7 @@ class Asknicely extends Component {
 	asknicelySettingsShow()  {
 		window.asknicelySettings.show({
 			name: "Nassau IT", // Optional - but nice to have
-			email: "us-nassauit@essaaaaaaaaaaaaaaailorusa.com", // Required - if no email, this should be a unique id for this customer in an email-like format. But a real email address is more powerful for follow-ups
+			email: "us-nassauit@essilorusa.com", // Required - if no email, this should be a unique id for this customer in an email-like format. But a real email address is more powerful for follow-ups
 			email_hash:
 			"876cd078bd321b9f59c43aae1c8f5d362f4433d1292ad1bb5bcd0c2aab7b9abb", // Required - *security hash of this customers email - see below
 			a_custom_property: "business", // Optional - Send extra data about this customer for reporting and leaderboards

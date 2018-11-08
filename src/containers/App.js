@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import classes from "./App.css";
 import Persons from "../components/Persons/Persons";
 import Cockpit from "../components/Cockpit/Cockpit";
+import Asknicely from "../components/Asknicely/Asknicely";
 
 
 class App extends Component {
@@ -66,7 +67,7 @@ class App extends Component {
         clicked={this.togglePersonsHandler}
         />
         {persons}
-        
+        <Asknicely/>
       </div>
     );
   }

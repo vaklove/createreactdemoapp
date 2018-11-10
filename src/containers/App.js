@@ -3,20 +3,6 @@ import classes from "./App.css";
 import Persons from "../components/Persons/Persons";
 import Cockpit from "../components/Cockpit/Cockpit";
 import Asknicely from "../components/Asknicely/Asknicely";
-import { Constant } from "../utils/constant";
-import { initAskNicelySettings } from "../helpers/initAskNicelySettings";
-
-initAskNicelySettings();
-
-const loadScript = (src) => {
-  let tag = document.createElement('script');
-  tag.async = true;
-  tag.src = src;
-  console.log(document.getElementsByTagName('body'));
-  document.getElementsByTagName('body')[0].appendChild(tag);
-}
-
-loadScript(Constant.webSurveyUrl);
 
 class App extends Component {
   state = {
